@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: local(Montserrat-Light),url("../font/Montserrat-Light.woff2") format("woff2"),url("../font/Montserrat-Light.woff") format("woff")
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    src: local(Montserrat),url("../font/Montserrat-Regular.woff2") format("woff2"),url("../resources/font/Montserrat-Regular.woff") format("woff")
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: local(Montserrat-SemiBold),url("../font/Montserrat-SemiBold.woff2") format("woff2"),url("../font/Montserrat-SemiBold.woff") format("woff")
+}
+
+@font-face {
+    font-family: NotoSansCJKkr;
+    font-style: normal;
+    font-weight: 400;
+    src: local(NotoSansCJKkr),url("../font/NotoSansCJKkr-Regular.woff2") format("woff2"),url("../font/NotoSansCJKkr-Regular.woff") format("woff")
+}
+
+@font-face {
+    font-family: NotoSansCJKkr;
+    font-style: normal;
+    font-weight: 500;
+    src: local(NotoSansCJKkr),url("../resources/font/NotoSansCJKkr-Medium.woff2") format("woff2"),url("../font/NotoSansCJKkr-Medium.woff") format("woff")
+}
+
+@font-face {
+    font-family: NotoSansCJKkr;
+    font-style: normal;
+    font-weight: 700;
+    src: local(NotoSansCJKkr),url("../font/NotoSansCJKkr-Bold.woff2") format("woff2"),url("../font/NotoSansCJKkr-Bold.woff") format("woff")
+}
+
+@font-face {
+    font-family: Dovemayo-Medium;
+    src: url("../font/Dovemayo-Medium.woff") format("woff");
+    font-weight: 400;
+    font-style: normal
+}
