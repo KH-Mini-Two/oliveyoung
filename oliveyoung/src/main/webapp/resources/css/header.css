@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
-#header {
-    width: 100%;
+.header {
+    width: 1020px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    margin: 0 auto;
 }
 
-#header .header__topMenu {
+.header__topMenu {
     width: 100%;
     height: 30px;
     display: flex;
@@ -15,50 +16,50 @@
     align-items: center;
 }
 
-#header .header__topMenu__list {
+.header__topMenu__list {
     display: flex;
     flex-direction: row;
 }
 
-#header .header__topMenu ul li {
+.header__topMenu ul li {
     padding: 0 10px;
     background: url("../images/bar_1x11.gif") 0 50% no-repeat;
 }
 
-#header .header__topMenu ul li:last-child {
+.header__topMenu ul li:last-child {
     padding-right: 0;
 }
 
-#header .header__topMenu ul li:first-child {
+.header__topMenu ul li:first-child {
     background: none;
 }
 
-#header .header__topMenu a {
+.header__topMenu a {
     text-decoration: none;
     cursor: pointer;
     font-size: 12px;
     color: #333333;
-    font-family: Montserrat, -apple-system, "Gothic A1", AppleSDGothicNeo, Roboto, dotum, "돋움", sans-serif;
+    font-family: Montserrat,-apple-system,NotoSansCJKkr,AppleSDGothicNeo,Roboto,dotum,"돋움",sans-serif;
     white-space: nowrap;
     line-height: 30px;
     letter-spacing: -.005cm;
     word-spacing: -1px;
 }
 
-#header .header__main {
+.header__main {
     display: flex;
     flex-direction: row;
     height: 90px;
 }
 
-#header .header__main__logo img {
+.header__main__logo img {
     width: 246px;
     height: 40px;
     display: block;
     margin-top: 22px;
 }
 
-#header .header__main__searchBox {
+.header__main__searchBox {
     width: 340px;
     height: 40px;
     margin-left: 90px;
@@ -70,7 +71,7 @@
     position: relative;
 }
 
-#header .header__main__searchBox__text {
+.header__main__searchBox__text {
     height: 36px;
     padding: 8px 10px 8px 0;
     box-sizing: border-box;
@@ -86,7 +87,7 @@
     outline: 0;
 }
 
-#header .header__main__searchBox__btn {
+.header__main__searchBox__btn {
     width: 36px;
     height: 32px;
     background: url(../images/search.svg) center / 20px 20px no-repeat;
@@ -99,7 +100,7 @@
     vertical-align: top;
 }
 
-#header .header__main__sideMenu {
+.header__main__sideMenu {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -109,17 +110,17 @@
     margin-top: 32px;
 }
 
-#header .header__main__sideMenu .delivery {
+.header__main__sideMenu .delivery {
     display: flex;
     flex-direction: row;
 }
 
-#header .header__main__sideMenu .delivery .delivery__icon {
+.header__main__sideMenu .delivery .delivery__icon {
     padding: 3px 27px 3px 0;
     background: url(../images/ico_delivery_flag.png) right 2px/22px 20px no-repeat;
 }
 
-#header .header__main__sideMenu .delivery::after {
+.header__main__sideMenu .delivery::after {
     content: "";
     width: 1px;
     height: 18px;
@@ -127,12 +128,12 @@
     margin: 0 15px;
 }
 
-#header .header__main__sideMenu .store {
+.header__main__sideMenu .store {
     display: flex;
     flex-direction: row;
 }
 
-#header .header__main__sideMenu .store::after {
+.header__main__sideMenu .store::after {
     content: "";
     width: 7px;
     height: 4px;
@@ -140,12 +141,12 @@
     margin: 9px 0 2px 4px;
 }
 
-#header .header__main__sideMenu .recent {
+.header__main__sideMenu .recent {
     display: flex;
     flex-direction: row;
 }
 
-#header .recent::after {
+.recent::after {
     content: "";
     width: 7px;
     height: 4px;
@@ -153,7 +154,7 @@
     margin: 9px 0 2px 4px;
 }
 
-#header .recent::before {
+.recent::before {
     content: "";
     width: 1px;
     height: 18px;
@@ -161,12 +162,12 @@
     margin: 0 15px;
 }
 
-#header .header__main__sideMenu a {
+.header__main__sideMenu a {
     text-decoration: none;
     cursor: pointer;
     font-size: 14px;
     color: #000;
-    font-family: Montserrat, -apple-system, "Gothic A1", AppleSDGothicNeo, Roboto, dotum, "돋움", sans-serif;
+    font-family: Montserrat,-apple-system,NotoSansCJKkr,AppleSDGothicNeo,Roboto,dotum,"돋움",sans-serif;
     white-space: nowrap;
     line-height: 20px;
     font-weight: 200;
@@ -183,16 +184,19 @@
     position: relative;
 }
 
-.header__bottomMenu .btn__wrapper {
-    height: 100%;
+.btn__wrapper {
+    width: 1024px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    flex-wrap: nowrap;
-    min-width: 100%;
+    height: 100%;
 }
 
-.header__bottomMenu .header__cateList {
+.btn__wrapper__menuBtn {
+	
+}
+
+.header__cateList {
     background: rgba(0, 0, 0, .4);
     position: absolute;
     top: 46px;

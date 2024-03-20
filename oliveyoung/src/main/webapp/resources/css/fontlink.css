@@ -48,3 +48,11 @@
     font-weight: 400;
     font-style: normal
 }
+
+.btn__wrapper__menuBtn {
+	line-height: 44px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+}

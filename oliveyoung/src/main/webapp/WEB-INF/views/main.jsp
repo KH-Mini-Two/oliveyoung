@@ -13,6 +13,7 @@
     <link href="${pageContext.request.contextPath}/resources/css/fontlink.css" rel="stylesheet">
     <!-- custom_reset.css -->
     <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet">
+    <!-- layout.css -->
     <link href="${pageContext.request.contextPath}/resources/css/layout.css" rel="stylesheet">
     
     <link href="${pageContext.request.contextPath}/resources/css/header.css" rel="stylesheet">
@@ -20,7 +21,7 @@
 <body>
     <div class="wrapper">
         <div class="wrapper__header">
-        <%@ include file="/WEB-INF/views/common/header.html" %>
+        <%@ include file="/WEB-INF/views/common/header.jsp" %>
         </div>
         <div class="wrapper__body">
         
