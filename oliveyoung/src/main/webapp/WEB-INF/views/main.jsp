@@ -17,6 +17,8 @@
     <link href="${pageContext.request.contextPath}/resources/css/layout.css" rel="stylesheet">
     
     <link href="${pageContext.request.contextPath}/resources/css/header.css" rel="stylesheet">
+    
+    <link href="${pageContext.request.contextPath}/resources/css/footer.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -27,7 +29,7 @@
         
         </div>
         <div class="wrapper__footer">
-
+		<%@ include file="/WEB-INF/views/common/footer.jsp" %>
         </div>
     </div>
 </body>
