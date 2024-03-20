@@ -38,7 +38,7 @@
 <div class="header__bottomMenu">
 	<ul class="btn__wrapper">
 		<li>
-			<a href="javascript:;">
+			<a class="btn__wrapper__menuBtn" href="javascript:;">
 				<div class="menuBar"></div>
 				<div class="btn__wrapper__menuBtn">카테고리</div>
 			</a>
@@ -52,23 +52,28 @@
 		<li><a class="btn__wrapper__menuBtn">멤버십/쿠폰</a></li>
 		<li><a class="btn__wrapper__menuBtn">이벤트</a></li>
 	</ul>
-	<div class="header__cateList">
-		<ul>
-			<li><a>스킨케어</a></li>
-			<li><a>메이크업/네일</a></li>
-			<li><a>미용소품</a></li>
-			<li><a>더모 코스메틱</a></li>
-			<li><a>맨즈케어</a></li>
-			<li><a>향수</a></li>
-			<li><a>헤어케어</a></li>
-			<li><a>바디케어</a></li>
-			<li><a>건강식품</a></li>
-			<li><a>푸드</a></li>
-			<li><a>구강/건강용품</a></li>
-			<li><a>여성/위생용품</a></li>
-			<li><a>라이프/팬시</a></li>
-			<li><a>AWARDS</a>
-			<div></div></li>
+	<div class="header__dropdownMenu">
+		<ul class="header__cateList" >
+			<li>
+				<div></div>
+				<a class="header__cateList__item" >스킨케어</a>
+			</li>
+			<li><a class="header__cateList__item" >메이크업/네일</a></li>
+			<li><a class="header__cateList__item" >미용소품</a></li>
+			<li><a class="header__cateList__item" >더모 코스메틱</a></li>
+			<li><a class="header__cateList__item" >맨즈케어</a></li>
+			<li><a class="header__cateList__item" >향수</a></li>
+			<li><a class="header__cateList__item" >헤어케어</a></li>
+			<li><a class="header__cateList__item" >바디케어</a></li>
+			<li><a class="header__cateList__item" >건강식품</a></li>
+			<li><a class="header__cateList__item" >푸드</a></li>
+			<li><a class="header__cateList__item" >구강/건강용품</a></li>
+			<li><a class="header__cateList__item" >여성/위생용품</a></li>
+			<li><a class="header__cateList__item" >라이프/팬시</a></li>
+			<li>
+				<a class="cateList__item__last" >AWARDS</a>
+				<div class="icon__awards"></div>
+			</li>
 		</ul>
 	</div>
 </div>

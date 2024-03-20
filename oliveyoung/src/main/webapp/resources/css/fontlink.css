@@ -52,7 +52,14 @@
 .btn__wrapper__menuBtn {
 	line-height: 44px;
     color: #000;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: -.04em;
+    text-align: center;
+}
+
+.header__cateList__item, .cateList__item__last {
+	font-size: 14px;
+    color: #fff;
+    font-weight: 700;
 }
