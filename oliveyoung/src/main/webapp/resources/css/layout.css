@@ -13,7 +13,9 @@ html, body, * {
 }
 
 .wrapper__body {
-    height: 3000px;
+    height: 100%;
+    width: 1020px;
+    margin: 0 auto;
 }
 .wrapper__header {
 	width: 100%;
