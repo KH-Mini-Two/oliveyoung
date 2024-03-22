@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.header__dropdownMenu {
+	display: none;
+}
+
+.store_title_area {
+	width: 1020px;
+    margin: 0 auto;
+    background: url(https://static.oliveyoung.co.kr/pc-static-root/image/top/bg_store_top.png) 50% 0 no-repeat #fcecd3;
+	height: 120px;
+}
+
+.store_title_area:before {
+	background: #fcecd3;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -50%;
+    width: 100%;
+    height: 120px;
+    z-index: -1;
+}
+
+.store_title_area h1 {
+	padding: 38px 0 0;
+    font-size: 40px;
+    color: #000;
+    line-height: 44px;
+}
+
+.store_title_area h1 > span:last-child{
+	color: #333;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.map_wrapper {
+	position: relative;
+	height: 715px;
+	padding-left: 390px;
+}
+
+#api_mapArea {
+	width: 100%;
+	height: 100%;
+}
+
+.store_side {
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    width: 390px;
+    box-shadow: 0 3px 5px 2px rgba(0,0,0,.2);
+    padding-bottom: 60px;
+    z-index: 10;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

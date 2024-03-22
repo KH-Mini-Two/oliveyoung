@@ -13,7 +13,7 @@ html, body, * {
 }
 
 .wrapper__body {
-    height: 3000px;
+    height: 100%;
 }
 .wrapper__header {
 	width: 100%;
