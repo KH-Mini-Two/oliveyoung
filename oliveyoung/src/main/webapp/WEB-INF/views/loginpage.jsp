@@ -21,6 +21,8 @@
 <link href="${pageContext.request.contextPath}/resources/css/layout.css"
 	rel="stylesheet">
 
+<link href="${pageContext.request.contextPath}/resources/css/header.css"
+	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resources/css/login.css"
 	rel="stylesheet">
 
@@ -30,7 +32,7 @@
 <body>
 	<div class="wrapper">
 		<div class="wrapper__header">
-			
+			<%-- <%@ include file="/WEB-INF/views/common/header.jsp"%> --%>
 		</div>
 		<div class="wrapper__body">
 		<%@ include file="/WEB-INF/views/common/login.jsp" %>
