@@ -1,0 +1,80 @@
+.viewRk {
+    position: relative;
+}.viewRk .main_sub_tit {
+    letter-spacing: 0;
+    margin-bottom: 8px;
+    line-height: 28px;
+    height: 40px;
+}
+
+.main_sub_tit {
+    height: 40px;
+    margin: 51px 0 8px;
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+}
+.viewRk_topBox {
+    position: absolute;
+    right: 1px;
+    top: 4px;
+}
+.viewRk_topBox .refreshBtn {
+    margin-right: 12px;
+    vertical-align: super;
+}
+.viewRk_topBox .refreshBtn .refreshTxt {
+    padding-left: 19px;
+    background: url(https://static.oliveyoung.co.kr/pc-static-root/image/curation/ico_refresh_circle.png) top 0 left / 18px auto no-repeat;
+    color: #666;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.viewRk_topBox .viewRk_tab {
+    display: inline-block;
+}
+.viewRk_topBox .viewRk_tab li {
+    float: left;
+}
+.liveRankArea {
+    height: 236px;
+    overflow: hidden;
+}
+.viewRk .curation_basket {
+    padding: 0;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    height: 236px;
+    overflow: hidden;
+}
+.viewRk .viewRk_single li .viewRk_inner {
+    transition: .3s !important;
+    height: 236px;
+    position: absolute;
+    top: 236px;
+    left: 0;
+}
+.viewRk .viewRk_list {
+    float: left;
+    width: 50%;
+}
+.viewRk_nav {
+    letter-spacing: 0;
+    margin: 18px 0;
+    padding-right: 20px;
+}
+.viewRk_nav li {
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+}
+.curation_basket li {
+    float: left;
+    width: 310px;
+    padding: 0 5px 0 15px;
+}
