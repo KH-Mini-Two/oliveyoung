@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+.main__mainBanner .slick-slider {
+    width: 100%;
+    height: 450px;
+    position: relative;
+  }
+
+  .main__mainBanner .mainBanner_slider {
+    left: -450px;
+    position: relative;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.main__mainBanner .slick-list{
+    transform: translate3d(0, 0, 0);
+    height: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+.main__mainBanner .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__mainBanner .slick-slide {
+    display: block;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    margin: 0px 20px;
+}
+
+.main__mainBanner .slick-slide img {
+    display: block;
+    width: 1920px;
+    height: 450;
+}
+  
+.main__mainBanner .pauseBtn {
+    display: block;
+    left: 50%;
+    margin-left: -155px;
+    position: absolute;
+    bottom: 30px;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background: url(https://static.oliveyoung.co.kr/pc-static-root/image/comm/ico_autoplay.png) 0 0 no-repeat;
+    text-indent: -9999px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+  }
+
+.main__mainBanner .slick-prev {
+    display: block;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -290px;
+    position: absolute;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background: url(https://static.oliveyoung.co.kr/pc-static-root/image/comm/ico_arrow40x40_2.png) no-repeat;
+    text-indent: -9999px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+    vertical-align: baseline;
+    top: auto;
+    right: auto;
+  }
+
+.main__mainBanner .slick-prev:hover {
+    display: block;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -290px;
+    position: absolute;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background: url(https://static.oliveyoung.co.kr/pc-static-root/image/comm/ico_arrow40x40_2.png) 0 100% no-repeat;
+    text-indent: -9999px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+  }
+  
+  .main__mainBanner .slick-next {
+    display: block;
+    left: 50%;
+    margin-left: -200px;
+    position: absolute;
+    bottom: 30px;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background: url(../images/ico_arrow40x40_2.png) 100% 0 no-repeat;
+    text-indent: -9999px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+    vertical-align: baseline;
+    top: auto;
+    right: auto;
+  }
+
+.main__mainBanner .slick-next:hover {
+    display: block;
+    left: 50%;
+    margin-left: -200px;
+    position: absolute;
+    bottom: 30px;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background: url(../images/ico_arrow40x40_2.png) 100% 100% no-repeat;
+    text-indent: -9999px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+  }
+  
+.main__mainBanner .page {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 50px;
+    height: 40px;
+    margin-left: -250px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    z-index: 2;
+  }
+
+.main__mainBanner .banner_desc {
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    font-size: 18px;
+    color: #666;
+    z-index: 1;
+    margin-left: -290px;
+    font-weight: 700;
+}
+
+.banner_desc  .tit {
+    display: block;
+    font-size: 18px;
+    color: #000;
+}
+
+.banner_desc .tit::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 1px;
+    margin: 20px 0;
+    background: #b0afb6;
+}
+
+.banner_desc strong{
+    display: block;
+    width: 360px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    color: #1f1f1f;
+    line-height: 56px;
+    word-break: keep-all;
+    font-weight: 400;
+}

@@ -1,0 +1,99 @@
+.main_customer_box {
+    position: relative;
+    width: 100%;
+    min-height: 246px;
+    margin-top: 60px;
+    border-top: 1px solid #000;
+}
+.main_customer_box .notice_area {
+    position: relative;
+    overflow: hidden;
+    width: 640px;
+}
+.main_customer_box .notice_area h4 {
+    line-height: 60px;
+}
+
+.main_customer_box h4 {
+    float: left;
+    width: 95px;
+    font-size: 18px;
+    color: #000;
+}
+
+.main_customer_box .notice_area .notice_cont {
+    float: left;
+    width: 545px;
+    height: 60px;
+    padding-top: 23px;
+}
+.main_customer_box .notice_area .more_view {
+    position: absolute;
+    top: 21px;
+    right: 0;
+    color: #888;
+    padding-right: 15px;
+    background: url(https://static.oliveyoung.co.kr/pc-static-root/image/comm/ico_arrow7x11_2.png) 100% 50% no-repeat;
+    font-weight: 700;
+}
+.main_customer_box .customer_area {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 640px;
+    padding-top: 35px;
+    border-top: 1px solid #ddd;
+    line-height: 24px;
+}
+.main_customer_box h4 {
+    float: left;
+    width: 95px;
+    font-size: 18px;
+    color: #000;
+}
+.main_customer_box .customer_area .tel_info {
+    float: left;
+    width: 245px;
+    padding-left: 2px;
+}
+.main_customer_box .customer_area .tel_info strong {
+    display: block;
+    margin-bottom: 3px;
+    color: #888;
+}
+.main_customer_box .customer_area .online_info {
+    float: left;
+    width: 300px;
+}
+.main_customer_box .customer_area .online_info .time_info {
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.main_customer_box .customer_area .online_info>p {
+    margin-top: 2px;
+    line-height: 22px;
+}
+.main_customer_box .customer_area .online_info>p {
+    margin-top: 2px;
+    color: #888;
+    line-height: 22px;
+}
+.main_customer_box .customer_area .online_info button {
+    width: 140px;
+    height: 60px;
+    background: #aaa;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -.02em;
+}
+.main_customer_box .customer_area .online_info button.btnFaqTop {
+    margin-left: 10px 
+}
+.main_customer_box .app_down_link{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}

@@ -1,0 +1,69 @@
+.main_sub_tit {
+    height: 40px;
+    margin: 51px 0 8px;
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+}
+
+.continaer {
+    border-top: 1px solid #ddd;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul > li.flag {
+    position: relative;
+    float: left;
+    width: 255px;
+    padding: 30px 20px 35px;
+}
+li .prd_info {
+    text-align: center;
+    font-size: 14px;
+}
+li .prd_info .prd_thumb {
+    position: relative;
+    display: block;
+    width: 215px;
+    height: 215px;
+    background: #fff;
+}
+.prd_info .prd_thumb>img {
+    width: auto !important;
+    max-width: 215px;
+    height: auto !important;
+    max-height: 215px;
+}
+.prd_info .prd_name {
+    margin-top: 15px;
+}
+.prd_info .prd_name .txt_brand {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #777;
+    font-weight: 700;
+}
+li .prd_info .prd_name .txt_name {
+    margin-top: 5px;
+}
+li .prd_info .prd_name .txt_name {
+    overflow: hidden;
+    height: 40px;
+    padding: 2px 0;
+    -webkit-box-orient: vertical;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-break: keep-all;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}

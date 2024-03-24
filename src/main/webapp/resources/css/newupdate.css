@@ -1,0 +1,106 @@
+.today-new-goods {
+    margin-top: 45px;
+}
+.today-new-goods h3 {
+    text-align: center;
+}
+.today-new-goods h3 strong {
+    font-size: 26px;
+    line-height: 31px;
+    color: #131518;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-slider .slick-list, .slick-slider .slick-track {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.today-new-goods .page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.today-new-goods .page .item a img {
+    width: 500px;
+    height: 282px;
+    border-radius: 4px;
+}
+.today-new-goods .page .item a p:first-of-type {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #131518;
+}
+.today-new-goods .page .item a p:first-of-type+p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #50585f;
+}
+.today-new-goods .btn_box {
+    margin: 40px 0 55px;
+    text-align: center;
+}
+.today-new-goods .btn_box .btn {
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    width: 335px;
+    margin: 0 auto;
+    padding: 10px 0 11px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #454c53;
+    text-align: center;
+}
+.today-new-goods .btn_box .btn .num {
+    margin-left: 10px;
+    font-weight: 400;
+    color: #b2b8be;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, Montserrat, NotoSansCJKkr, AppleSDGothicNeo, Roboto, sans-serif;
+    line-height: 17px;
+}
+.today-new-goods .btn_box .btn .current {
+    display: inline-block;
+    position: relative;
+    min-width: 25px;
+    padding-right: 16px;
+    color: #454c53;
+    font-family: -apple-system, BlinkMacSystemFont, Montserrat, NotoSansCJKkr, AppleSDGothicNeo, Roboto, sans-serif;
+}
